@@ -1,3 +1,6 @@
-To retrieve all the saved models
+1.To retrieve all the saved models
     bentoml models list 
 (bentoml stores all the version of models in some local store/directories) -- C:\Users\devsh\bentoml\models\iris_clf (for my case)
+
+2. To run the service.py for accessing all the api's
+    bentoml serve service.py:svc --reload
