@@ -1,0 +1,3 @@
+To retrieve all the saved models
+    bentoml models list 
+(bentoml stores all the version of models in some local store/directories) -- C:\Users\devsh\bentoml\models\iris_clf (for my case)

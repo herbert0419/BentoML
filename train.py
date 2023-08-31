@@ -15,3 +15,6 @@ clf.fit(X,y)
 
 saved_model = bentoml.sklearn.save_model("iris_clf",clf)
 print(f"Model saved: {saved_model}")
+
+
+##iris_clf:sq5zj4cicw4pkuc3
