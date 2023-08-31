@@ -2,5 +2,11 @@
     bentoml models list 
 (bentoml stores all the version of models in some local store/directories) -- C:\Users\devsh\bentoml\models\iris_clf (for my case)
 
-2. To run the service.py for accessing all the api's
+2.To run the service.py for accessing all the api's
     bentoml serve service.py:svc --reload
+
+3.To build the bentos
+    bentoml build
+
+4.To list the bentos
+    bentoml list
